@@ -1,0 +1,18 @@
+{
+  "js": [
+    {
+      "error": ["error404", "error500"]
+    },
+    "index",
+    "about",
+    "contents"
+  ],
+  "html": [
+    {
+      "error": ["error404", "error500"]
+    },
+    "index",
+    "about",
+    "contents"
+  ]
+}
