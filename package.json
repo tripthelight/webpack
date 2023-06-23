@@ -8,7 +8,7 @@
     "build": "webpack --config webpack.config.js",
     "serve:client": "concurrently \"npm run build\" \"webpack serve\"",
     "serve:server": "node ./src/server/server.js",
-    "start": "concurrently \"npm run serve:server\" \"npm run build\""
+    "start": "concurrently \"npm run build\" \"npm run serve:server\" "
   },
   "keywords": [],
   "author": "",
